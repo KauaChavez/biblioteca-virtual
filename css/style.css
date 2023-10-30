@@ -435,7 +435,11 @@ input[type="radio"]:checked {
 }
 
 .imagem1 {
+
+    border-width: 60px; 
+    border-style: solid;
+    border-color:  blue;
+    
     max-width: 100%; /* Para garantir que a imagem não seja maior que a coluna */
-    display: block;
-    margin: 0 auto;
+    
 }
