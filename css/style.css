@@ -164,14 +164,12 @@ to { background-position: 0 -31.48px, 0 0, 100% 0, -31.48px 100%; }
 }
 
 input[type="radio"] {
-    position: relative;
+    
     top: 108%;
     left: 179px;
     width: 18px;
     height: 18px;
-    margin: 0 15px 0 0;
-    transform: translateX(-83px);
-    cursor: pointer;
+s    cursor: pointer;
     opacity: 0.4;
 }
 
@@ -246,6 +244,34 @@ input[type="radio"]:checked {
 
 
 /*Categorias*/
+
+.menu-desk1 a {
+    color: #1f3f34;
+    text-decoration: none;
+    float: left;
+}
+
+.hello1 {
+    margin: 0px;
+    height: 111px;
+    text-align: center;
+    background-color: #75948C;
+}
+
+.hello1 h1 {
+    font-weight: normal;
+    font-size: 37px;
+    font-family: Playfair Display;
+    color: white;
+}
+
+.hello1 p {
+    padding: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Playfair Display;
+    color: white;
+}
 
 .fundo2 {
     float: left;
@@ -411,82 +437,50 @@ input[type="radio"]:checked {
 
 /*Página Contato*/
 
-.contato {
-    min-height: 400px;
-    padding: 30px 0px;
-}
-
-.title-page h2 {
-    color: solid black;
-}
-
-.contato .w50,
-.contato .w100 {
-    padding: 0px 10px;
-}
-
-.formulario form {
-    margin-top: 10px;
-}
-
-.formulario h2 {
-    background: rgb(14, 41, 20);
+.fundo6
+{
+    float: left;
+    width: 100%;
+    height: 1146px;
     text-align: center;
-    color: white;
-    font-weight: bold;
+    background-color: #AECBC4;
+}
+
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
     font-size: 20px;
-    padding: 5px 0px;
-    border-left: 20px solid rgb(14, 41, 20);
-    border-right: 20px solid rgb(14, 41, 20);
+
 }
 
-.w60 {
-    width: 100%;
-    float: left;
+.form-contact {
+    margin: 40px 0;
+ }
+
+.entry-label {
+    display: block;
+    margin: 8px auto;
+    width: 50%;
 }
 
-.w40 {
-    width: 40%;
-    float: left;
+.entry, .form-contact textarea {
+    display: block;
+    margin: 0 auto 25px;
+    padding: 4px 9px;
+    font-size: 18px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
 }
 
-.formulario input[type=text],
-.formulario input[type=telefone] {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 15px;
-    padding-left: 8px;
-}
-
-.formulario textarea {
-    width: 100%;
-    height: 140px;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-.tags-form {
-    padding-left: 50px;
-}
-
-.tags-form h2 {
-    font-weight: normal;
-}
-
-.tags-form p {
-    font-weight: lighter;
-}
-
-.tags-form p.tag-contato {
-    color: black;
-    background: rgb(39, 82, 49);
-    text-align: center;
-    margin-top: 8px;
-    padding: 8px 4px;
+#checkbox, .div-entry {
+    margin: 30px auto;
 }
 
 
-/* Romance */
+/* livros em geral */
+
 .fundo4 {
     float: left;
     width: 100%;
@@ -500,27 +494,27 @@ input[type="radio"]:checked {
     margin-top: -89px;
     font-size: 23px;
     font-family: Playfair Display;
-    color: #AECBC4;
+    color: #607C76;
 }
 
 .fundo4 h5 {
     margin-top: -76px;
     font-size: 23px;
     font-family: Playfair Display;
-    color: #AECBC4;
+    color: #607C76;
 }
 
 .fundo4 h6 {
     margin-top: -100px;
     font-size: 23px;
     font-family: Playfair Display;
-    color: #AECBC4;
+    color: #607C76;
 }
 .fundo4 h3 {
     margin-top: -90px;
     font-size: 23px;
     font-family: Playfair Display;
-    color: #AECBC4;
+    color: #607C76;
 }
 
 .coluna1 {
@@ -723,6 +717,36 @@ input[type="radio"]:checked {
 
 
 /*Notícias da pagina sobre*/
+.hello {
+    margin: 47px;
+    height: 111px;
+    text-align: center;
+    background-color: #75948C;
+}
+
+.hello h1 {
+    font-weight: normal;
+    font-size: 37px;
+    font-family: Playfair Display;
+    color: white;
+}
+
+.hello p {
+    padding: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Playfair Display;
+    color: white;
+}
+
+.hello img {
+    width: 250px;
+    height: 250px;
+    margin-top: -228px;
+    float: left;
+    margin-left: -39px;
+}
+
 .sobre-noticia
 {
   padding:30px 0px;
