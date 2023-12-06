@@ -814,6 +814,11 @@ input[type="radio"]:checked {
   
 }
 
+.equipe-circle-single p
+{
+    text-align: justify;
+}
+
 .avatar2
 {
   position:relative;
