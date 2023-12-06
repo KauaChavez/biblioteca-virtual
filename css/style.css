@@ -169,7 +169,7 @@ input[type="radio"] {
     left: 179px;
     width: 18px;
     height: 18px;
-s    cursor: pointer;
+    cursor: pointer;
     opacity: 0.4;
 }
 
@@ -757,6 +757,7 @@ input[type="radio"]:checked {
   float:left;
   max-width:100%;
   width:50%;
+  height: 646px;
   
 }
 
@@ -772,7 +773,7 @@ input[type="radio"]:checked {
 .sobre-noticia-single p
 {
     font-size: 25px;
-    padding: 60px 27px;
+    padding: 36px 27px;
     padding-bottom: 10px;
     width: 47%;
     text-align: justify;
@@ -781,7 +782,7 @@ input[type="radio"]:checked {
 .paragrafo-noticia-single p
 {
   margin-top:10px;
-  font-size:12px;
+  font-size:14px;
   float: left;
 
 }
